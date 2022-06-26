@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <typeAliases>
+        <typeAlias alias="Sample" type="kr.co.everon.api.epit.model.Sample" />
+        <!-- <package name="kr.co.everon.api.epit.model.Sample" /> -->
+    </typeAliases>
+    <mappers>
+        <mapper resource="mybatis/sql/SampleMapper.xml" />
+        <!-- <mapper resource="./SampleMapper.xml" /> -->
+    </mappers>
+</configuration>
